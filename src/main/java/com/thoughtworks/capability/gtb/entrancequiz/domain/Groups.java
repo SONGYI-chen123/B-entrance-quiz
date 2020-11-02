@@ -2,7 +2,9 @@ package com.thoughtworks.capability.gtb.entrancequiz.domain;
 
 import java.util.List;
 
+// TODO GTB-工程实践: - 类名应该使用单数
 public class Groups {
+    // TODO GTB-工程实践: - 注意类成员的顺序，一般是字段，构造器，公共方法，私有方法
     public String getGroupName() {
         return groupName;
     }
